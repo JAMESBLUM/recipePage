@@ -1,0 +1,22 @@
+/*=============== Estos son mis mediaqueries ===============*/
+@mixin phone{
+    @media (min-width: $phone){
+        @content;
+    }
+}
+@mixin tablet{
+    @media (min-width: $tablet){
+        @content;
+    }
+}
+@mixin desktop{
+    @media(min-width: $desktop){
+        @content; 
+    }
+}
+//=============== Display grid ===============
+@mixin grid($columnas, $separacion){
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $separacion;
+}

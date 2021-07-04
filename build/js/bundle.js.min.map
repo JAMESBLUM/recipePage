@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.js"],"names":["app","document","addEventListener"],"mappings":"AAGA,SAAAA,OAHAC,SAAAC,iBAAA,cAAA,WACAF","file":"bundle.js","sourcesContent":["document.addEventListener(\"DOMContent\",function(){\r\n    app();\r\n});\r\nfunction app(){\r\n    \r\n}"]}

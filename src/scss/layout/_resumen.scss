@@ -1,0 +1,6 @@
+.resumen,.resumen-text{padding: $separacion / 2 0;}
+.resumen-text{
+    display: flex;
+    gap: 1rem;
+    p{margin: 0;}
+}
